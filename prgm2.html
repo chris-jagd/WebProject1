@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+  background-color: lightgoldenrodyellow;
+}
+</style>
+</head>
+<body>
+<!-- I got this code from the W3 schools tutorial on CSS backgrounds -->
+
+<head>
+<style>
+
+
+div {
+  background-color: orange;
+  width: 1330px;
+  border: 15px solid orangered;
+  padding: 20px;
+  margin: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+</style>
+</head>
+<!-- I got the above code from the W3 schools tutorial on CSS the box model -->
+
+<body>
+
+
+<div><h2>Understanding the United Nations Sustainable Development Goals</h2></div>
+
+</body>
+
+<div class="container">
+<!-- Niko helped show me this code -->
+
+
+
+<p> Welcome to my website where I will inform you about two of the most important United Nations Sustainable Development Goals (UNSDG's), and hopefully inspire you to take action! Please click any of the below buttons to get started on your journey of understading two of the most crucial UNSDG's!</p>
+
+
+</div>
+
+        <button id="button1">SDG4</button>&nbsp;
+
+            <button id="button2">SDG10</button>&nbsp;
+
+            <button id="button3">Comparison and Connection</button>
+
+            <button id="button4">Get Involved!</button>
+
+            <button id="button5">The UNSDG'S</button>
+            <!-- I got this code from the button model program Mr. Jugoon provided -->
+
+            <br><br>
+
+            <form action="https://gofund.me/01821d24">
+            <input type="submit" value="Go to the gofundme!" />
+            </form>
+            <!-- I got this code from Mr. Jugoon when he gave me extra help -->
+
+        </div>
+
+        <hr>
+
+        <h2 id="theOption"></h2>
+        <p id="theInfo"></p>
+        <!-- I got this code from the button model program Mr. Jugoon provided -->
+
+        <img id="myPic" src="">
+        <br><br>
+        <img id="myPic2" src="">
+        <!-- I got this code from Mr. Jugoon when he gave me extra help -->
+
+</body>
+
+
+    <script>
+
+        // const header123 = document.getElementById("myHeader");
+        // const info123 = document.getElementById("myInfo");
+        const pic123 = document.getElementById("myPic");
+        const pic124 = document.getElementById("myPic2");
+
+        // Create button functionality to manipulate text being displayed    
+        document.getElementById("button1").onclick = function() {
+
+            const element = document.getElementById("theOption");
+            element.innerHTML = "SDG4";
+
+            const info = document.getElementById("theInfo");
+            info.innerHTML =
+            // I got this code from the Mr. Jugoon button program 
+        
+
+            "What is the problem this SDG is adressing? <br><br> Many people in the world suffer from the extremely pervasive issue of not having access to a quality education that gives them the opportunity to be successful in the future. Globally, around 5.5 million more girls than boys of primary school age were out of school in 2018 according to the UN. 617 million youth worldwide lack basic mathematics and literacy skills (Edu). In 10 low and middle-income countries, children with disabilities were 19% less likely to achieve minimum proficiency in reading (Edu). <br><br> How is the SDG contributing to solving the problem? <br><br> United Nations Sustainable Development Goal 4 attacks this problem head on, and the UN has taken many actions pursuant to this goal, trying to ensure everyone has access to a quality education. The UN prioritizes recognizing the factors which severely exacerbate this issue, and subsequently trying to resolve the factors. For example, the Covid-19 pandemic led to close to 1.6 billion children and youth being out of school by April 2020 according to the UN. Thus, the UN recognized that they had to implement measures to combat the pandemic, and they subsequently launched the Covid-19 Global Education Coalition, which sought to give 145 low to middle income countries the resources they needed to provide a quality education in the new challenging conditions to all their citizens. Additionally, the UN was able to give 3 million Ukrainian people access to remote learning during the depths of the 2022 Russian invasion, where getting an in person education was a challenge for many of them. On top of all these immediate responsive measures to give people access to education, the UN has slowly been investing in global education systems, bolstering them and allowing them to give more people access to a quality education. A statistic reflecting this slow growth of global education systems is the fact that according to the UN, the primary school completion rate reached 84 per cent in 2018, up from 70 per cent in 2000 and under current trends, is expected to reach 89 per cent globally by 2030.";
+
+            // header123.innerHTML = "This is the title I want to display";
+            // info123.innerHTML = "This is the information I want to display...";
+
+            // The name of the image would need to be changed here. You can also reference a local file by doing "file1.jpeg"
+            pic123.src = "https://www.rti.org/sites/default/files/insight-thumbnail-images/upper_primary_education_1020.jpg";
+            pic123.style.height = '500px';
+            pic123.style.width = '700px';
+            pic123.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+            pic124.src = "https://sdgs.un.org/sites/default/files/2022-07/SDG%20Report%202022_Goal%204%20infographic.png";
+            pic124.style.height = '700px';
+            pic124.style.width = '450px';
+            pic124.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+
+        }//end onclick     
+ 
+
+
+         document.getElementById("button2").onclick = function() {
+
+            const element = document.getElementById("theOption");
+            element.innerHTML = "SDG10";
+
+            const info = document.getElementById("theInfo");
+            info.innerHTML = 
+
+                "What is the problem this SDG is adressing? <br><br> The term inequality refers to the idea that some people will have more resources and more opportunities than other people, leaving those other people at a disadvantage. Unfortunately, currently many people in countries, and overall countries in the world suffer from an immense amount of inequalities that hinders people’s ability to succeed, and in some cases survive. By mid-2021, according to the UN, the number of people forced to flee their countries had grown to a record high 24.5 million. According to the UN, in 2021, 5,895 people died fleeing their countries, surpassing pre-pandemic figures and making 2021 the deadliest year on record for migrants since 2017. According to the UN, 16,000 children die each day from preventable disease. <br><br> How is the SDG contributing to solving the problem? <br><br> This goal tackles the extremely complex problem of inequality. The complex nature of this issue means that achieving reduced inequalities will take a lot of drastic change, and it will take a lot of time. The UN is focusing on reducing inequalities by taking small concrete actions, which will help bridge the gaps separating people and countries. These actions include improving the regulation and monitoring of financial markets and institutions, providing foreign direct investment to regions where the need is greatest, and facilitating the safe migration and mobility of people, which is key to bridging the widening divide.";
+
+
+
+            // header123.innerHTML = "This is the title I want to display";
+            // info123.innerHTML = "This is the information I want to display...";
+
+            // The name of the image would need to be changed here. You can also reference a local file by doing "file1.jpeg"
+            pic123.src = "https://sustainingprogress.umd.edu/sites/default/files/styles/optimized/public/2020-11/0010.jpg?itok=GBDPAUxJ";
+            pic123.style.height = '500px';
+            pic123.style.width = '700px';
+            pic123.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+            pic124.src = "https://sdgs.un.org/sites/default/files/2022-07/SDG%20Report%202022_Goal%2010%20infographic.png";
+            pic124.style.height = '700px';
+            pic124.style.width = '450px';
+            pic124.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+
+        }//end onclick     
+
+
+                document.getElementById("button3").onclick = function() {
+
+            const element = document.getElementById("theOption");
+            element.innerHTML = "Comparison and Connection";
+
+            const info = document.getElementById("theInfo");
+            info.innerHTML = 
+
+            "How are the two goals similar and different? <br><br> The first goal of a quality education focuses on eventually making sure that everyone can have the same level of education. The UN tries to achieve this by providing a lot of aid to those areas where a high quality of education is just not available. Meanwhile, the second goal focuses on overall just reducing the many inequalities that plague this world, as they know that eliminating all inequalities is just impossible. The UN takes a similar approach to achieving this, by giving the most aid to the areas with the most disparities when compared to other areas. These goals are very heavily interconnected as the reason that many people are unable to attain a quality education is because they have unequal opportunity and resources available to them when compared to other people. A great example of this is the African American community. African Americans suffer from inequalities when compared to White Americans because they still suffer from the intergenerational repercussions of slavery in America. This was confirmed in a Pew research center study which concluded that 74% of black people believe that slavery has impacted their current position in society. This inequality that the majority of Black Americans suffer from reflects in their ability to attain a quality education. This is reinforced by an American study which concluded that in 2016, almost 432,000 White Americans had a Master degree, while only 88,000 Black Americans had a Master degree (gent 2018).";
+
+
+
+            // header123.innerHTML = "This is the title I want to display";
+            // info123.innerHTML = "This is the information I want to display...";
+
+            // The name of the image would need to be changed here. You can also reference a local file by doing "file1.jpeg"
+            pic123.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sustainable_Development_Goal_04QualityEducation.svg/1200px-Sustainable_Development_Goal_04QualityEducation.svg.png";
+            pic123.style.height = '400px';
+            pic123.style.width = '400px';
+            pic123.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+            pic124.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sustainable_Development_Goal_10ReducedInequalities.svg/1200px-Sustainable_Development_Goal_10ReducedInequalities.svg.png";
+            pic124.style.height = '400px';
+            pic124.style.width = '400px';
+            pic124.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+
+        }//end onclick 
+
+
+
+            document.getElementById("button4").onclick = function() {
+
+            const element = document.getElementById("theOption");
+            element.innerHTML = "Get Involved!";
+
+            const info = document.getElementById("theInfo");
+            info.innerHTML = 
+
+            "How can you contribute to the achievement of the UNSDG's? <br><br> Although the UNSDG’s are incredibly vast goals which require an immense amount of effort and time to accomplish, there are actions that every citizen can take that will make tangible contributions to the accomplishment of these goals. I believe that the most effective method of making these contributions to the UNSDG’s is to donate to organizations who are making significant contributions to the achievement of the UNSDG’s. This method is accessible to everyone, and the money donated is guaranteed to go to people who have the capabilities to make a difference, which is not guaranteed, like if a citizen attempted to start something on their own. Directly above this page is a button which will lead you to a gofundme which I encourage you to donate to, because contributing to it will simultaneously help you contribute to the eventual completion of SDG4 and SDG10. The gofund me that the above button leads you to gives you the chance to support the Quality Education Foundation, and their mission to establish computer labs and centers for learning in high schools in impoverished Ghanaian communities.";
+
+
+            // header123.innerHTML = "This is the title I want to display";
+            // info123.innerHTML = "This is the information I want to display...";
+
+            // The name of the image would need to be changed here. You can also reference a local file by doing "file1.jpeg"
+            pic123.src = "https://pbs.twimg.com/profile_images/1571936017480916992/e7QbC4tv_400x400.jpg";
+            pic123.style.height = '400px';
+            pic123.style.width = '400px';
+            pic123.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+            pic124.src = "https://res.cloudinary.com/devex/image/fetch/https://lh6.googleusercontent.com/nHLLl2-2Z4BXlqhkWIUxdz6eMlacny5uKOECYaKdwqL64Bsxu1Q8BnE-FVKs8irnX3NmJeNisOs6bJuulFcDxY4vXqt6127Q6exOtolHNfJkK0fQoJt-4J182R8yz09aNpmT6p6bjApsydrUm9GamCk";
+            pic124.style.height = '400px';
+            pic124.style.width = '700px';
+            pic124.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+
+        }//end onclick       
+
+
+
+
+            document.getElementById("button5").onclick = function() {
+
+            const element = document.getElementById("theOption");
+            element.innerHTML = "The UNSDG's";
+
+            const info = document.getElementById("theInfo");
+            info.innerHTML = 
+
+            "What are the UNSDG's and what do they mean? <br><br>The term UNSDG’s is an abbreviation for United Nations Sustainable Development Goals, and it refers to the goals curated by the United Nations in 2015 to try and ensure sustainable development for the world while protecting the environment. Each goal is an urgent call to action for everyone, specifically governments. Each goal comes with a subset of objectives which have a timeline to be met, allowing the UN to easily judge the effectiveness of the goals and the effectiveness of the implementation. Everyone can contribute to the completion of these vast global goals, so please try to contribute as well.";
+
+
+
+            // header123.innerHTML = "This is the title I want to display";
+            // info123.innerHTML = "This is the information I want to display...";
+
+            // The name of the image would need to be changed here. You can also reference a local file by doing "file1.jpeg"
+            pic123.src = "https://www.undp.org/sites/g/files/zskgke326/files/styles/banner_image_desktop/public/2021-05/UNDP-South-Sudan-2018-solar-panels-DSCF4902-1920x1073px-3.jpg?h=029c4f0b&itok=64mrb7vT";
+            pic123.style.height = '400px';
+            pic123.style.width = '700px';
+            pic123.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+            pic124.src = "https://yulupr.com/wp-content/uploads/2021/09/UN-Sustainable-Development-Goals-scaled.jpeg";
+            pic124.style.height = '400px';
+            pic124.style.width = '700px';
+            pic124.style.display ='block';
+
+// I got this model of code from Mr. Jugoon when he was giving me extra help.
+
+        }//end onclick       
+
+
+    </script>
+
+</html>
